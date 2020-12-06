@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   font-family: "Major Mono Display", monospace;
   margin: 0;
   display: flex;
@@ -13,4 +13,4 @@ body {
   align-items: center;
   overflow: hidden;
   height: 100vh;
-}
+} */
