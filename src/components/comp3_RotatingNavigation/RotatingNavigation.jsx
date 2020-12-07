@@ -14,7 +14,7 @@ const RotatingNavigation = () => {
   }, []);
 
   return (
-    <>
+    <div>
       <div className="container">
         <div className="circle-container">
           <div className="circle">
@@ -32,21 +32,11 @@ const RotatingNavigation = () => {
           <small>MILAN MILENKOVIC</small>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
-            quasi voluptatibus! Corrupti tempora eos est pariatur possimus omnis
-            deserunt voluptas repellat natus nemo dolorum laborum asperiores,
-            aliquid nam expedita quibusdam ipsam quisquam explicabo,
-            necessitatibus illo qui repellendus maxime quod temporibus! Vel,
-            sapiente! Aperiam ipsum voluptatibus odit, necessitatibus
-            consectetur fugit beatae nam delectus dolorum explicabo, pariatur
-            veniam et deleniti nobis odio cupiditate officiis ab natus optio
-            ipsa laboriosam. Iure, ipsa. Saepe odio nihil tempora sapiente iure
-            possimus. Tempore aspernatur ratione quae error alias accusantium
-            voluptates quos quidem laborum hic. Modi fuga totam in nulla
-            deserunt odit commodi consectetur dolorem possimus illo!
           </p>
 
           <h3>MY DOWG</h3>
           <img
+            width="50%"
             src="https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
             alt="dog"
           />
@@ -77,7 +67,7 @@ const RotatingNavigation = () => {
           </li>
         </ul>
       </nav>
-    </>
+    </div>
   );
 };
 

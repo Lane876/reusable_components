@@ -1,5 +1,6 @@
 import "./App.css";
-import RotatingNavigation from "./components/comp3_RotatingNavigation/RotatingNavigation";
+import HiddenSearchWidget from "./components/comp4_HiddenSearchWidget/HiddenSearchWidget";
+// import RotatingNavigation from "./components/comp3_RotatingNavigation/RotatingNavigation";
 // import ExpandingCards from "./components/comp1_ExpandingCards/ExpandingCards";
 // import ProgressSteps from "./components/comp2_ProgressSteps/ProgressSteps";
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <ExpandingCards /> */}
       {/* <ProgressSteps /> */}
-      <RotatingNavigation />
+      {/* <RotatingNavigation /> */}
+      <HiddenSearchWidget />
     </div>
   );
 }
