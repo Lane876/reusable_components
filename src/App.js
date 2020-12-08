@@ -1,5 +1,6 @@
 import "./App.css";
-import ScrollAnimation from "./components/comp6_ScrollAnimation/ScrollAnimation";
+import SplitLandingPage from "./components/comp7_SplitLandingPage/SplitLandingPage";
+// import ScrollAnimation from "./components/comp6_ScrollAnimation/ScrollAnimation";
 // import BlurryLoading from "./components/comp5_BlurryLoading/BlurryLoading";
 // import HiddenSearchWidget from "./components/comp4_HiddenSearchWidget/HiddenSearchWidget";
 // import RotatingNavigation from "./components/comp3_RotatingNavigation/RotatingNavigation";
@@ -14,7 +15,8 @@ function App() {
       {/* <RotatingNavigation /> */}
       {/* <HiddenSearchWidget /> */}
       {/* <BlurryLoading /> */}
-      <ScrollAnimation />
+      {/* <ScrollAnimation /> */}
+      <SplitLandingPage />
     </div>
   );
 }
