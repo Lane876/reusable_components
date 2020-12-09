@@ -1,5 +1,7 @@
 import "./App.css";
-import SplitLandingPage from "./components/comp7_SplitLandingPage/SplitLandingPage";
+import SoundBoard from "./components/comp9_SoundBoard/SoundBoard";
+// import FormWaveAnimation from "./components/comp8_FormWaveAnimation/FormWaveAnimation";
+// import SplitLandingPage from "./components/comp7_SplitLandingPage/SplitLandingPage";
 // import ScrollAnimation from "./components/comp6_ScrollAnimation/ScrollAnimation";
 // import BlurryLoading from "./components/comp5_BlurryLoading/BlurryLoading";
 // import HiddenSearchWidget from "./components/comp4_HiddenSearchWidget/HiddenSearchWidget";
@@ -16,7 +18,9 @@ function App() {
       {/* <HiddenSearchWidget /> */}
       {/* <BlurryLoading /> */}
       {/* <ScrollAnimation /> */}
-      <SplitLandingPage />
+      {/* <SplitLandingPage /> */}
+      {/* <FormWaveAnimation /> */}
+      <SoundBoard />
     </div>
   );
 }
