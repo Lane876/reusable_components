@@ -1,5 +1,6 @@
 import "./App.css";
-import SoundBoard from "./components/comp9_SoundBoard/SoundBoard";
+import DadJokes from "./components/comp10_DadJokes/DadJokes";
+// import SoundBoard from "./components/comp9_SoundBoard/SoundBoard";
 // import FormWaveAnimation from "./components/comp8_FormWaveAnimation/FormWaveAnimation";
 // import SplitLandingPage from "./components/comp7_SplitLandingPage/SplitLandingPage";
 // import ScrollAnimation from "./components/comp6_ScrollAnimation/ScrollAnimation";
@@ -20,7 +21,8 @@ function App() {
       {/* <ScrollAnimation /> */}
       {/* <SplitLandingPage /> */}
       {/* <FormWaveAnimation /> */}
-      <SoundBoard />
+      {/* <SoundBoard /> */}
+      <DadJokes />
     </div>
   );
 }

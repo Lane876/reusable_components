@@ -24,14 +24,14 @@ const SoundBoard = () => {
       document.getElementById("buttons").appendChild(btn);
     });
 
-    const stopSongs = () => {
+    function stopSongs() {
       sounds.forEach((sound) => {
         const song = document.getElementById(sound);
 
         song.pause();
         song.currentTime = 0;
       });
-    };
+    }
   }, []);
 
   return (
