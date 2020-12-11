@@ -1,4 +1,5 @@
 import "./App.css";
+// import EventKeyCodes from "./components/comp11_EventKeyCodes/EventKeyCodes";
 import DadJokes from "./components/comp10_DadJokes/DadJokes";
 // import SoundBoard from "./components/comp9_SoundBoard/SoundBoard";
 // import FormWaveAnimation from "./components/comp8_FormWaveAnimation/FormWaveAnimation";
@@ -23,6 +24,7 @@ function App() {
       {/* <FormWaveAnimation /> */}
       {/* <SoundBoard /> */}
       <DadJokes />
+      {/* <EventKeyCodes /> */}
     </div>
   );
 }
