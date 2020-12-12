@@ -1,6 +1,7 @@
 import "./App.css";
+import FAQCollapse from "./components/comp12_FAQCollapse/FAQCollapse";
 // import EventKeyCodes from "./components/comp11_EventKeyCodes/EventKeyCodes";
-import DadJokes from "./components/comp10_DadJokes/DadJokes";
+// import DadJokes from "./components/comp10_DadJokes/DadJokes";
 // import SoundBoard from "./components/comp9_SoundBoard/SoundBoard";
 // import FormWaveAnimation from "./components/comp8_FormWaveAnimation/FormWaveAnimation";
 // import SplitLandingPage from "./components/comp7_SplitLandingPage/SplitLandingPage";
@@ -23,8 +24,9 @@ function App() {
       {/* <SplitLandingPage /> */}
       {/* <FormWaveAnimation /> */}
       {/* <SoundBoard /> */}
-      <DadJokes />
+      {/* <DadJokes /> */}
       {/* <EventKeyCodes /> */}
+      <FAQCollapse />
     </div>
   );
 }
