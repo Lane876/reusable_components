@@ -1,5 +1,6 @@
 import "./App.css";
-import FAQCollapse from "./components/comp12_FAQCollapse/FAQCollapse";
+import RandomChoicePicker from "./components/comp13_RandomChoicePicker/RandomChoicePicker";
+// import FAQCollapse from "./components/comp12_FAQCollapse/FAQCollapse";
 // import EventKeyCodes from "./components/comp11_EventKeyCodes/EventKeyCodes";
 // import DadJokes from "./components/comp10_DadJokes/DadJokes";
 // import SoundBoard from "./components/comp9_SoundBoard/SoundBoard";
@@ -26,7 +27,8 @@ function App() {
       {/* <SoundBoard /> */}
       {/* <DadJokes /> */}
       {/* <EventKeyCodes /> */}
-      <FAQCollapse />
+      {/* <FAQCollapse /> */}
+      <RandomChoicePicker />
     </div>
   );
 }

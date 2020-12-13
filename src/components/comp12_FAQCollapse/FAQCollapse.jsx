@@ -72,5 +72,4 @@ const FAQCollapse = () => {
     </>
   );
 };
-
 export default FAQCollapse;
