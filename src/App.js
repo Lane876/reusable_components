@@ -1,5 +1,6 @@
 import "./App.css";
-import RandomChoicePicker from "./components/comp13_RandomChoicePicker/RandomChoicePicker";
+import { AnimatedNavigation } from "./components/comp14_AnimatedNavigation/AnimatedNavigation";
+// import RandomChoicePicker from "./components/comp13_RandomChoicePicker/RandomChoicePicker";
 // import FAQCollapse from "./components/comp12_FAQCollapse/FAQCollapse";
 // import EventKeyCodes from "./components/comp11_EventKeyCodes/EventKeyCodes";
 // import DadJokes from "./components/comp10_DadJokes/DadJokes";
@@ -28,7 +29,8 @@ function App() {
       {/* <DadJokes /> */}
       {/* <EventKeyCodes /> */}
       {/* <FAQCollapse /> */}
-      <RandomChoicePicker />
+      {/* <RandomChoicePicker /> */}
+      <AnimatedNavigation />
     </div>
   );
 }
