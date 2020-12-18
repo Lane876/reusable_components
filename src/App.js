@@ -1,5 +1,6 @@
 import "./App.css";
-import { AnimatedNavigation } from "./components/comp14_AnimatedNavigation/AnimatedNavigation";
+import IncerementingCounter from "./components/comp15_IncerementingCounter/IncerementingCounter";
+// import { AnimatedNavigation } from "./components/comp14_AnimatedNavigation/AnimatedNavigation";
 // import RandomChoicePicker from "./components/comp13_RandomChoicePicker/RandomChoicePicker";
 // import FAQCollapse from "./components/comp12_FAQCollapse/FAQCollapse";
 // import EventKeyCodes from "./components/comp11_EventKeyCodes/EventKeyCodes";
@@ -30,7 +31,8 @@ function App() {
       {/* <EventKeyCodes /> */}
       {/* <FAQCollapse /> */}
       {/* <RandomChoicePicker /> */}
-      <AnimatedNavigation />
+      {/* <AnimatedNavigation /> */}
+      <IncerementingCounter/>
     </div>
   );
 }
