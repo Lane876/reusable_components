@@ -33,7 +33,7 @@ body {
   margin-top: 10px;
 }
 
-@media (max-width: 864px) {
+@media (max-width: 865px) {
   .wrapper {
     flex-direction: column;
   }
