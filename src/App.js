@@ -1,5 +1,6 @@
 import "./App.css";
-import DrinkWater from "./components/comp16_DrinkWater/DrinkWater";
+import BackgroundSlider from "./components/comp18_BackgroundSlider/BackgroundSlider";
+// import DrinkWater from "./components/comp16_DrinkWater/DrinkWater";
 // import IncerementingCounter from "./components/comp15_IncerementingCounter/IncerementingCounter";
 // import { AnimatedNavigation } from "./components/comp14_AnimatedNavigation/AnimatedNavigation";
 // import RandomChoicePicker from "./components/comp13_RandomChoicePicker/RandomChoicePicker";
@@ -34,7 +35,8 @@ function App() {
       {/* <RandomChoicePicker /> */}
       {/* <AnimatedNavigation /> */}
       {/* <IncerementingCounter/> */}
-      <DrinkWater/>
+      {/* <DrinkWater/> */}
+      <BackgroundSlider/>
     </div>
   );
 }
