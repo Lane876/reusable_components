@@ -1,5 +1,6 @@
 import "./App.css";
-import BackgroundSlider from "./components/comp18_BackgroundSlider/BackgroundSlider";
+import ThemeClock from "./components/comp19_ThemeClock/ThemeClock";
+// import BackgroundSlider from "./components/comp18_BackgroundSlider/BackgroundSlider";
 // import DrinkWater from "./components/comp16_DrinkWater/DrinkWater";
 // import IncerementingCounter from "./components/comp15_IncerementingCounter/IncerementingCounter";
 // import { AnimatedNavigation } from "./components/comp14_AnimatedNavigation/AnimatedNavigation";
@@ -36,7 +37,8 @@ function App() {
       {/* <AnimatedNavigation /> */}
       {/* <IncerementingCounter/> */}
       {/* <DrinkWater/> */}
-      <BackgroundSlider/>
+      {/* <BackgroundSlider/> */}
+      <ThemeClock/>
     </div>
   );
 }
