@@ -1,5 +1,6 @@
 import "./App.css";
-import ThemeClock from "./components/comp19_ThemeClock/ThemeClock";
+import ButtonRippleEffect from "./components/comp20_ButtonRippleEffect/ButtonRippleEffect";
+// import ThemeClock from "./components/comp19_ThemeClock/ThemeClock";
 // import BackgroundSlider from "./components/comp18_BackgroundSlider/BackgroundSlider";
 // import DrinkWater from "./components/comp16_DrinkWater/DrinkWater";
 // import IncerementingCounter from "./components/comp15_IncerementingCounter/IncerementingCounter";
@@ -38,7 +39,8 @@ function App() {
       {/* <IncerementingCounter/> */}
       {/* <DrinkWater/> */}
       {/* <BackgroundSlider/> */}
-      <ThemeClock/>
+      {/* <ThemeClock/> */}
+      <ButtonRippleEffect/>
     </div>
   );
 }
