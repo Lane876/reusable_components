@@ -1,5 +1,6 @@
 import "./App.css";
-import ButtonRippleEffect from "./components/comp20_ButtonRippleEffect/ButtonRippleEffect";
+import DragNdrop from "./components/comp21_DragNdrop/DragNdrop";
+// import ButtonRippleEffect from "./components/comp20_ButtonRippleEffect/ButtonRippleEffect";
 // import ThemeClock from "./components/comp19_ThemeClock/ThemeClock";
 // import BackgroundSlider from "./components/comp18_BackgroundSlider/BackgroundSlider";
 // import DrinkWater from "./components/comp16_DrinkWater/DrinkWater";
@@ -40,7 +41,8 @@ function App() {
       {/* <DrinkWater/> */}
       {/* <BackgroundSlider/> */}
       {/* <ThemeClock/> */}
-      <ButtonRippleEffect/>
+      {/* <ButtonRippleEffect/> */}
+      <DragNdrop/>
     </div>
   );
 }
