@@ -1,5 +1,6 @@
 import "./App.css";
-import DragNdrop from "./components/comp21_DragNdrop/DragNdrop";
+import DrawingApp from "./components/comp22_DrawingApp/DrawingApp";
+// import DragNdrop from "./components/comp21_DragNdrop/DragNdrop";
 // import ButtonRippleEffect from "./components/comp20_ButtonRippleEffect/ButtonRippleEffect";
 // import ThemeClock from "./components/comp19_ThemeClock/ThemeClock";
 // import BackgroundSlider from "./components/comp18_BackgroundSlider/BackgroundSlider";
@@ -42,7 +43,8 @@ function App() {
       {/* <BackgroundSlider/> */}
       {/* <ThemeClock/> */}
       {/* <ButtonRippleEffect/> */}
-      <DragNdrop/>
+      {/* <DragNdrop/> */}
+      <DrawingApp/>
     </div>
   );
 }
